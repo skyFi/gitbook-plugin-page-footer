@@ -1,5 +1,9 @@
 # gitbook-plugin-page-footer
-gitbook-plugin-page-footer
+
+## gitbook plugin url
+
+[page-copyright](https://plugins.gitbook.com/plugin/page-copyright)
+
 
 ## Install
 Add the below to your `book.json` file, then run `gitbook install` in book folder:
