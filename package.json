@@ -1,0 +1,89 @@
+{
+  "name": "gitbook-plugin-page-copyright",
+  "version": "1.0.6",
+  "description": "gitbook plugin page footer",
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">=3.0.0-pre.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyFi/gitbook-plugin-page-footer.git"
+  },
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "page",
+    "footer"
+  ],
+  "author": "skylor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skyFi/gitbook-plugin-page-footer/issues"
+  },
+  "homepage": "https://github.com/skyFi/gitbook-plugin-page-footer#readme",
+  "gitbook": {
+    "properties": {
+      "description": {
+        "type": "string",
+        "default": "modified at",
+        "title": "Description for your modified motion"
+      },
+      "signature": {
+        "type": "string",
+        "default": "Skylor.min",
+        "title": "Author"
+      },
+      "wisdom": {
+        "type": "string",
+        "default": "Designer, Frontend Developer & overall web enthusiast",
+        "title": "Windom"
+      },
+      "format": {
+        "type": "string",
+        "default": "YYYY-MM-dd hh:mm:ss",
+        "title": "Time format"
+      },
+      "copyright": {
+        "type": "string",
+        "default": "Copyright © skylor",
+        "title": "Description for your Copyright"
+      },
+      "timeColor": {
+        "type": "string",
+        "default": "#666",
+        "title": "Default color for modifed time"
+      },
+      "copyrightColor": {
+        "type": "string",
+        "default": "#666",
+        "title": "Default color for Copyright"
+      },
+      "utcOffset": {
+        "type": "string",
+        "default": "8",
+        "title": "Timezone",
+        "min": "-12",
+        "max": "12"
+      },
+      "isShowQRCode": {
+        "type": "boolean",
+        "default": true,
+        "title": "QRCode"
+      },
+      "baseUri": {
+        "type": "string",
+        "default": "https://github.com/skyFi",
+        "description": "BaseUri of the first page of your book"
+      },
+      "styles (normal, symmetrical)": {
+        "type": "string",
+        "default": "normal",
+        "description": "choose your page footer style (normal, symmetrical)"
+      }
+    }
+  }
+}
